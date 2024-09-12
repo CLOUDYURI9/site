@@ -1,7 +1,9 @@
 * {
     margin: 0;
     padding: 0;
-}
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
 body {
     background-image: url(../assets/fundo2.jpg);
     background-size: cover;
@@ -24,7 +26,7 @@ body {
     width: 100%;
 }
 
-.nos{
+.servicos{
     color: #F2F2F2;
 }
 
@@ -52,22 +54,15 @@ body {
 }
 
 .conteudo-container {
-    display: flex;
-    flex-direction: column;
-    background-color: rgba(143, 78, 84, 0.3);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    width: 1200px;
-    height: 450px;
-    margin-top: 20px;
-    flex-wrap: wrap;
     display: flex; /* Define o contêiner como flexbox */
     justify-content: flex-start; /* Alinha o conteúdo à esquerda */
     align-items: flex-start; /* Alinha os itens no topo */
-    padding: 20px; /* Adiciona espaçamento interno */
+    height: 100%; /* Define a altura do contêiner para a altura total da tela */
+    padding: 0px; /* Adiciona espaçamento interno */
     box-sizing: border-box; /* Inclui o padding dentro da largura */
-    
-  }
+    margin: 10px; /* Margem superior e inferior */
+    width: 100%;
+}
 
 
 .brasil {
@@ -75,21 +70,43 @@ body {
     height: 20px;
 }
 
+.conheca{
+    color: #6D6D6D;
+    font-size: 25px;
+}
+
+.nossos{
+    color: #F2F2F2;
+    font-size: 28px;
+}
+
 .ladoesquerdo{
     width: 50%; /* Define a largura como metade do contêiner */
-    padding: 20px; /* Espaçamento interno */
+    padding: 10px; /* Espaçamento interno */
     box-sizing: border-box; /* Inclui o padding dentro da largura */
     color: #FFFFFF;
+    justify-content: center;
+    margin: 40px;
 }
 
 .ladodireito{
     width: 50%; /* Define a largura como metade do contêiner */
-    padding: 20px; /* Espaçamento interno */
+    padding: 10px; /* Espaçamento interno */
     box-sizing: border-box; /* Inclui o padding dentro da largura */
     color: #FFFFFF;
+    align-self: center;
+    margin: 20px;
 }
 
-.logosemfundo02{
-    height: 170px; /* Define a altura da logo */
+.imgpp{
+    width: 50px;
+    height: 50px;
+
 }
+
+.texto {
+    margin-bottom: 5px; /* Adiciona espaçamento de 30 pixels abaixo de cada bloco */
+    padding: 15px; /* Adiciona preenchimento interno de 15 pixels */
+  }
+
 

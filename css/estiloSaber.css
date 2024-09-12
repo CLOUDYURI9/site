@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(../assets/fundo2.jpg);
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    height: 50%;
+    justify-content: flex-start;
+    
+
+}
+
+.site-header {
+    background-color: #750A14;
+    color: #fff;
+    padding: 25px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.servicos {
+    color: #F2F2F2;
+}
+
+.logosemfundo {
+    position: absolute;
+    /* Posiciona a logo de forma absoluta */
+    top: -50px;
+    /* Ajusta a distância do topo do cabeçalho */
+    left: 20px;
+    /* Ajusta a distância da esquerda do cabeçalho */
+    height: 170px;
+    /* Define a altura da logo */
+}
+
+.main-nav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 30px;
+}
+
+
+.main-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.conteudo-container {
+    
+    display: flex;
+    /* Ativa o modo Flexbox */
+    flex-wrap: nowrap;
+    /* Garante que os itens não quebrem para a linha seguinte */
+    justify-content: space-between;
+    /* Distribui o espaço entre os blocos */
+    align-items: flex-start;
+    /* Alinha os blocos de texto ao topo */
+    gap: 20px;
+    /* Espaçamento entre os blocos de texto */
+    margin: 20px;
+    /* Margem externa para o contêiner */
+    width: 100%;
+    /* Largura total do contêiner */
+    box-sizing: border-box;
+    /* Inclui padding e border na largura */
+    
+}
+
+
+.brasil {
+    width: 35px;
+    height: 20px;
+}
+
+.conheca {
+    color: #6D6D6D;
+    font-size: 25px;
+}
+
+.nossos {
+    color: #F2F2F2;
+    font-size: 28px;
+}
+
+
+
+
+.imgpp {
+    width: 50px;
+    height: 50px;
+
+}
+
+.texto {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    max-width: 10%;
+    max-height: 100vh;
+    font-size: 10px;
+}
+
+.cima{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    max-width: 100vh;
+    margin: 10px;
+    
+}
