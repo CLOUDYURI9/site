@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(../assets/AGRICULTURA-.webp);
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    height: 50%;
+    justify-content: center;
+    
+  }
+
+.site-header {
+    background-color: #750A14; 
+    color: #fff; 
+    padding: 25px;
+    display: flex; 
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+}
+
+
+.nos{
+    color: #F2F2F2;
+}
+
+
+.logosemfundo {
+    position: absolute; /* Posiciona a logo de forma absoluta */
+      top: -50px; /* Ajusta a distância do topo do cabeçalho */
+      left: 20px; /* Ajusta a distância da esquerda do cabeçalho */
+      height: 170px; /* Define a altura da logo */
+}
+
+.main-nav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 30px;
+}
+
+
+.main-nav ul li a {
+    color: #fff; 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+.conteudo-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(143, 78, 84, 0.3);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 1200px;
+    height: 450px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    display: flex; /* Define o contêiner como flexbox */
+    justify-content: flex-start; /* Alinha o conteúdo à esquerda */
+    align-items: flex-start; /* Alinha os itens no topo */
+    padding: 20px; /* Adiciona espaçamento interno */
+    box-sizing: border-box; /* Inclui o padding dentro da largura */
+    
+  }
+
+
+.brasil {
+    width: 35px;
+    height: 20px;
+}
+
+.ladoesquerdo{
+    width: 50%; /* Define a largura como metade do contêiner */
+    padding: 20px; /* Espaçamento interno */
+    box-sizing: border-box; /* Inclui o padding dentro da largura */
+    color: #FFFFFF;
+}
+
+.ladodireito{
+    width: 50%; /* Define a largura como metade do contêiner */
+    padding: 20px; /* Espaçamento interno */
+    box-sizing: border-box; /* Inclui o padding dentro da largura */
+    color: #FFFFFF;
+    justify-content: center;
+    display: flex;
+}
+
+.logosemfundo02{
+    height: 170px; /* Define a altura da logo */
+}
+
+
+.caixa{
+    background-color: #D9D9D9;
+    
+    align-items: flex-start;
+    width: 400px;
+    height: 200px;
+    justify-content: end;
+    display: flex;
+    flex-direction: column;
+}
+
+.ambevimg{
+    height: 40px;
+    width: 70px;
+    justify-content: end;
+    display: flex;
+}

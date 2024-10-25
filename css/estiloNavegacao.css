@@ -1,0 +1,78 @@
+* {
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 800;
+}
+
+body {
+    margin: 0;               
+    height: 100%;
+    width: 100%;
+    position: relative;      
+
+}
+
+
+
+.site-header {
+    background-color: #750A14; 
+    color: #fff; 
+    padding: 25px;
+    display: flex;
+    max-width: 99%;
+    justify-content: flex-start;
+}
+
+.logotipo {
+    width: 25%;
+}
+
+.menu-navegacao {
+   
+    display: flex;
+    font-size: 20px;
+    gap: 20px;
+    
+}
+
+.logosemfundo {
+    position: absolute; 
+      top: -50px; /* Ajusta a distância do topo do cabeçalho */
+      left: 20px; /* Ajusta a distância da esquerda do cabeçalho */
+      height: 170px; /* Define a altura da logo */
+}
+
+.main-nav{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+.brasil {
+    width: 35px;
+    height: 20px;
+}
+
+.main-nav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 90px;
+}
+
+
+.main-nav ul li a {
+    color: #fff; 
+    text-decoration: none; 
+    font-weight: bold;
+
+}
+
